@@ -1,0 +1,50 @@
+.titulo-principal {
+    margin-left: 50px;
+
+}
+
+.banner {
+    width: 100%;
+
+}
+
+.divisao-principal {
+    background: #CCCCCC;
+    padding-top: 10px;
+    
+}
+
+.missao {
+    font-size: 24px;
+    color: red;
+
+}
+
+h2, p, em {
+    text-align: center;
+
+}
+
+.beneficios {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.itens   {
+    font-style: italic;
+   
+}
+
+ul {
+   
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.imagem-beneficios {
+    width: 40%;
+    margin-left: 120px;
+    
+}

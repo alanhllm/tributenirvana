@@ -1,0 +1,74 @@
+header {
+ 
+
+}
+
+.logo   {
+    position: relative;
+    right: -150px;
+
+
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav {
+    position: absolute;
+    top: 55px;
+    right: 255px;
+
+}
+
+nav a {
+
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    position: relative;
+
+   
+}
+
+nav a::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+
+}
+
+nav a:hover::after{
+    width: 100%;
+
+
+}
+
+.imageminicial {
+    position: relative;
+    margin: 0 0 0 270px;
+
+}
+
+.copy {
+    font-size: smaller;
+    position: relative;
+    right: -270px;
+    top: -5px;
+}
